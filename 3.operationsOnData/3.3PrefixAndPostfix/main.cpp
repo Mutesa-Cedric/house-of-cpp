@@ -7,9 +7,13 @@ int main()
     // regular increment or decrement (+1 or -1)
     int value = 4;
     value = value + 1; // same as
+
+    // compound assignment
     value += 1;
 
     value = value - 1; // same as
+
+    // compound assignment
     value -= 1;
 
     // postfix increment or decrement (value-- or value++)
